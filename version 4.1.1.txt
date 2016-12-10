@@ -1,0 +1,895 @@
+Version 4.1.1 - 14.08.2016
+- Compacting menu items when they won't fit the width of the site it is now disabled by default. Enable it from Theme options - Header options
+- Fixed combined JS functionality to properly work
+- Fixed 3 columns layout doubled line
+- Fixed mobile header notifications count
+
+Version 4.1 - 13.08.2016
+- NEW FEATURE: Added Essential Grid plugin - save $26. Create advanced and beautiful grid designs 
+- NEW SPEED FEATURE: Combine and minify theme loaded CSS and Javascript files. See them in Theme options.
+- NEW SPEED FEATURE: Enable only what modules and shortcodes you use. Also integrated plugins CSS styles are stored in one file only and dynamicaly generated to include just styling for the ones active on your site. 
+- NEW SPEED FEATURE: Remove query string from theme loaded resources
+- NEW FEATURE: Theme Welcome page added. NEW setup wizard with Theme status, Registration, Addons and Demo import.
+- NEW FEATURE: New menu item styles: Buy, Highlight or See through button. Check them out by editing a menu item
+- NEW FEATURE: Improved menu items icon selector and added icons preview
+- NEW FEATURE: Kleo Tabs - "Text" style added
+- NEW FEATURE: New style for Testimonials shortcode
+- NEW FEATURE: Added new Feature items style and options
+- NEW FEATURE: Box shadow option for single image
+- NEW FEATURE: Awesome new Header options.
+- NEW FEATURE: Added new options to set Header scrolled height when header resize is enabled
+- NEW FEATURE: Responsive Font size and Line height for Text Element
+- Optimized theme header resize logic
+- Updated Facebook SDK to version 2.6
+- Split main css file into modules and started adding less files to the theme
+- Added woocommerce_cart_item_removed action on cart item remove
+- Woocommerce 2.6.3 compatibility
+- Added cross browser compatibility for flex - Testimonials shortcode.
+- Fix vc_gallery custom links
+- Fixed some php notices in some isolated cases
+- Small header menu fixes for mobile resolution.
+
+
+Version 4.0.8 - 25.06.2016
+- NEW FEATURE: Introducing Modules. Added three components to enable/disable: Testimonials, Clients and Portfolio
+- NEW FEATURE: Customise blog image sizes for each type of blog display. See the new options in Theme options - Blog
+- Woocommerce 2.6 compatibility
+- Sensei 1.9 compatibility. Fixed duplicated titles and some styling
+- Visual composer 4.12 compatiblity
+- WooEvents admin metaboxes compatibility
+- Allow Post likes click also for later added content on page
+- Header top dropdown fix
+- Go Pricing tables updates fix
+
+Version 4.0.7 - 27.05.2016
+- NEW FEATURE: Introducing Modules. Added three components to enable/disable: Testimonials, Clients and Portfolio
+- NEW FEATURE: Enable header increased opacity on hover for transparent header. See it under Theme options - Header options - Increased header opacity when hovered
+- NEW FEATURE: Added hash link support KLEO Tabs and KLEO Accordions. When you switch tabs you will see the URL changing with the Tab ID, so when you copy the link it will open that tab.
+- NEW FEATURE: Portfolio options new setting for the slider type to open the big image instead opening the portfolio item link
+- Kleo Register shortcode now uses the "bp_before_registration_submit_buttons" action to show data from different plugins like ReCaptcha
+- Change the speed for a kleo-scrool-to element by adding data-speed attribute. Example:
+<a href="#in-page-section" class="kleo-scroll-to" data-speed="2000">scroll to element in page</a>
+- Some Buddypress style improvements
+- Woocommerce product image fix when using variations
+- Woocommerce cart and minicart updated templates
+- Kleo Accordion fix to use the ID given in the shortcode
+- Kleo Posts and Kleo Accordion fix for some Visual composer versions
+- Added tutorial on how to create a Facebook APP in Theme options - Miscellaneous
+- Fixed the kleo_excerpt function to listen to excerpt_length filter
+- Small bug on sticky links at mobile resolution.
+- Image carousel shortcode now supports "items_width" attribute that allows you to set a custom width for the elements
+- Portfolio filter fix for categories on some isolated cases
+- Woocommerce share buttons fix
+- Updated K-elements plugin to 4.0.7
+
+	
+Version 4.0.6 - 21.04.2016
+- NEW FEATURE: Added the option to import WooCommerce products to the Apperance - KLEO Demo data page
+- NEW OPTION: Change Portfolio default Video height when you have only videos on the page. See Theme options - Portfolio - Portfolio list Video Height
+- Fixed Gallery slider options from post edit Theme General settings - Media tab
+- Improved kleo_clients shortcode not to render an anchor when no link was provided
+- Updated K-elements to 4.0.5.1
+- Updated Visual composer to 4.11.2.1
+
+Version 4.0.5 - 13.04.2016
+- WORDPRESS 4.5 compatibility
+- NEW FEATURE: added the option to disable the Magnific popup for blog articles images. Use with caution only when you have a custom popup implementation.
+- NEW FEATURE: Added new mobile options tab and in Theme options. You can now set the "theme-color" meta tag that changes the header color on supported mobile devices
+- BuddyPress activate page translation string fix
+- Added some Javascript extra checks to avoid errors
+- Fixed a Facebook login jquery isolated issue on the wp-login.php page
+- Small fix for Image Carousel custom links.
+- Fixes issue with Visual composer grid images not loading from time to time
+- Fixed query filter which affected bbpress widget ( forum list ).
+- Added translatable strings to page metabox options
+- Fixes some generated PHP notices.
+
+Version 4.0.4 - 18.03.2016
+- Added Buddypress Docs tags archive compatibility
+- Fixed Visual composer autoupdate functionality
+- Fixed standard fonts when re-saving theme options
+- Updated Visual composer to 4.11.1
+- Updated Revolution Slider to 5.2.3
+
+Version 4.0.3 - 08.03.2016
+- NEW FEATURES: Now we are able to provide bundled plugin updates through our own update system. No need to update the theme to get newer plugin versions, they will automaticall show in Appearance - Install plugins
+- Re-enabled Go Pricing tables update functionality from Appearance - Install plugins
+- Paid memberships pro enhanced restriction check for BP Root Profiles.
+- Moved private message button filtering for friends tab and member directory so it would effect pm button in header when a bp member loop was also called in the profile.
+- Revslider update 5.2.1
+
+Version 4.0.2 - 04.03.2016
+- NEW FEATURE: Added FB Button shortcode -> [kleo_fb_button]
+- Fixed Blog masonry image not filling the container on some cases
+- Fixed kleo_register form shortcode missing input placeholders on safari/mozilla.
+- Kleo Login element small padding fix.
+- Buddypress Docs compatiblity for comments section
+- Header Social icons fix on mobile when social icons are disabled or empty
+- Social icons were displaying even when they were disabled in theme options. 
+- Fixed wide container width affected by the boxed version container width setting.
+- Go Pricing Tables version 3.2.1 update
+- K-elements version 4.0.2 update
+
+Version 4.0.1 - 25.02.2016
+- Fixed BuddyPress cover missing in rtmedia pages.
+- Fixed parallax on vc_row that was not acting right when used with VC 4.10
+- Fixed PHP 7 notice on sidebar_generator Class
+- Fixed Safari flex for equal height columns
+- Fixed topic replies styling in group forums.
+- Fixed some isolated issues on mobile responsiveness
+
+Version 4.0 - 24.02.2016
+- NEW DEMO: KLEO COMPANY - http://seventhqueen.com/themes/kleo/company/
+- NEW DEMO: KLEO FOOD - http://seventhqueen.com/themes/kleo/food/
+- NEW DEMO: KLEO REGISTER Landing page - http://seventhqueen.com/themes/kleo/home-register/
+
+- NEW FEATURE: SideKick interactive WordPress tutorials integrations. You get a FREE premium SIDEKICK annual license (a $60 value) and 10 Kleo specific tutorials plus other 200 WordPress Basics Walkthroughs.
+- NEW FEATURE: Easier than ever to import demo pages. Added intuitive interface and Revslider import integration
+- NEW FEATURE: Homepage redirect ( option to redirect logged in users away from the homepage to your profile or other page )
+- NEW FEATURE: Login & Lost Password shortcodes.
+- NEW FEATURE: Register form shortcode with soft post to WP or BuddyPress registration endpoint ( without builtin validation or processing, but if the posted data is valid the forms will be submitted ).
+- NEW FEATURE: Option to show post tags under the content for single article page.
+- NEW FEATURE: Allow site layout overriding(full/boxed) at page/post level
+- NEW FEATURE: Added 5 columns layout to create inovative designs.
+- NEW FEATURE: Magic container element that allows you to set custom css positions, dimensions and box shadow
+- NEW FEATURE: Added new options for the button shortcode like custom text, background, border colors and hover
+- NEW FEATURE: Added a new Visibility option for Visual composer element - XLarge desktop (device width higher than 1440px)
+- NEW FEATURE: Added Vertical separator and Letter spacing options to Text column and Heading elements
+- NEW FEATURE: Possibility to add links to Feature Item boxes.
+- NEW FEATURE: Added Feature Item icon color option.
+- NEW FEATURE: Added Visibility options to Gap shortcode
+- NEW FEATURE: Added new button type with left boxed icon.
+- NEW FEATURE: Added Color and Padding options to Icon shortcode
+- NEW FEATURE: Added new option to display post meta inline in post page. Find it in Theme options - Blog - Meta Settings - Post meta style for single post page
+- NEW FEATURE: Added new query offset option for Kleo Posts and Kleo Carousel shortcodes
+- NEW FEATURE: Added Whatsapp and Linkedin sharing options
+- NEW FEATURE: Sharing options now allows you to enable what platforms to use for sharing
+- NEW FEATURE: Added new icons libraries to choose from, on shortcodes with icons selectors
+- NEW FEATURE: Register popup with soft post to WP or BuddyPress registration endpoint ( without builtin validation or processing, but if the posted data is valid the forms will be submitted ).
+- NEW FEATURE: Added shortcode for Kleo likes and social sharing.
+- NEW FEATURE: Now you can turn off site-wide animations, for all devices or just for mobile devices.
+- NEW FEATURE: Full width menu style option for header.
+- NEW FEATURE: Add your custom color preset to Theme options styling. See more: http://seventhqueen.com/support/kleo/article/add-a-custom-color-preset-for-theme-options-styling
+- NEW FEATURE: Possibility to add links to feature item boxes.
+- NEW FEATURE: Added ability to disable Free badge in woocommerce(thanks @sharmstr).
+- NEW FEATURE: Added new query offset option for Kleo News Focus, Kleo News Highlight, Kleo News Ticker
+- NEW FEATURE: Added new icons libraries to choose from. Found on shortcodes with icons selectors
+- NEW FEATURE: Added member type dropdown to the members grid, carousel and masonry shortcodes.
+
+- IMPROVEMENT: Kleo Icon now supports text to the left/right side of the icon
+- IMPROVEMENT: Moved Row text and background parameters to a Settings tab
+- IMPROVEMENT: BuddyPress Cover ( native ) - live update cover on upload / delete
+- IMPROVEMENT: Visual composer 4.9+ compatibility.
+- IMPROVEMENT: KLEO now uses WooCommerce builtin breadcrumb but adapted to fit Kleo structure.
+- IMPROVEMENT: Woocommerce 2.5 template updates.
+- IMPROVEMENT: Bottom footer alignment to when content very small
+- IMPROVEMENT: Fixed GeoDirectory menu items and added compatibility with GeoDirectory Multi Location addon.
+- IMPROVEMENT: GeoDirectory breadcrumb.
+- IMPROVEMENT: Added styling for search form in archive page.
+- IMPROVEMENT: Trigger the reviews tab when clicking on the reviews starts link.
+- IMPROVEMENT: Autoexpand widget Navigation menu - sub-menu item.
+- Added KLEO 3.0 landing page slider to the importer
+- Changed default row bottom border to None
+- Fixed buttons not being clickable when added into a row with video background.
+- Fixed kleo posts layout switcher not working when used in the same row with a galaxy particles element.
+- Changed h5 to h4 in register sidebar titles to match the rest of the sites sidebar titles.
+- Add login modal to bp activation page
+- Fixed group members search returning all members: http://seventhqueen.com/support/forums/topic/member-search-in-group-not-working
+- Enabled trackbacks/pingbacks in comments template.
+- Fix for Wordpress 4.4+ to force URLs in srcset attributes into HTTPS scheme when using https.
+- Fixed pricing table default columns issue: http://seventhqueen.com/support/forums/topic/2-collum-pricing-tables-shows-like-3-columns
+- Fixed Featured items without text overlapping
+- Fixed GeoDirectory search bar shortcode/widget styling.
+- Fixed archive and search listings to use the correct sq option for displaying meta or not.(thanks @sharmstr)
+- Added login/lost password shortcode.
+- Changed paddings on boxed layout to proper align
+- Limit the BuddyPress activity type tabs ajax to happen only in the main container.
+- Fixed Buddypress activity comment issue that was occuring in Firefox only
+- Fixed portfolio filters missing subcategories. ( thanks Radu)
+- Fix for BP Cover and WPML compatibility
+- Fixed WPML language switcher dropdown on primary menu, mobile version.
+- Fixed a bug with the generated font family from Theme options
+- Flex 1px bug for safari + remove unusual padding for feature items.
+- Small fix for specific_id in testimonial shortcode
+- Fixed deprecated notice for Kleo tab
+- Updated rtMedia templates
+- rtMedia Load more button padding fix
+- Extra check for showing "Change cover" buttons on member and group page
+- Woocommerce product page compatibility with WordPress 4.4.
+- Woocommerce single product page description fix.
+- Small woocommerce fix for product hover animation - mobile view.
+- Small WooCommerce RTL fixes.
+- Fixed WC product loop link wrapper duplicate.
+- Added stylings for woocommerce widget search box.
+-  Some small Sensei tweaks.
+- Ajax search small fixes
+- Fixed bbPress search widget
+- Added 100% French translation - thanks to Laura
+- Fixed the missing translations in the Theme options
+- Fixed Missing argument 2 for kleo_check_single_post_title()
+- Rtmedia audio controls fix
+- Fixed multiple modal galleries on the same page.
+- Changed pinterest share icon so that it opens in new window like the fb and other share icons do.(thanks @sharmstr)
+- Removed background parallax on mobile devices
+- Fixed parallax background image position on mobile browsers ( disabled the parallax effect ).
+- Escape urls generated by the kleo search shortcode.
+- Small fix for MailChimp
+- Updated Theme options framework
+- Visual composer 4.10 update
+- Revslider 5.1.6 update
+- GO Pricing tables updated to version 3.2.0
+- Updated K-elements to 4.0
+
+
+Version 3.9.1 - 17.02.2016
+- Fixed Javascript error on Buddypress profile page related to cover image script
+
+Version 3.9 - 15.02.2016
+- NEW FEATURE: SideKick interactive WordPress tutorials integrations. You get a FREE premium SIDEKICK annual license (a $60 value) and 10 Kleo specific tutorials plus other 200 WordPress Basics Walkthroughs.
+
+
+Version 3.1.3 - 26.11.2015
+- Buddypress activity button display fix
+- Fix for image gallery grid in VC Tabs
+- Fixed kleo recent posts widget, added wpml compatibility
+- TGMPA integrated plugin update to 2.5.2
+
+Version 3.1.2 - 25.11.2015
+- Added compatibility with BuddyPress 2.4 Cover Image
+- Added some missing filters into woocommerce ajax header cart
+- Updated import demo data for Home Product Landing Page
+- Fixed a php notice in the vc_row_inner shortcode
+- Search input group members fix
+- Fix breadcrumb trail for hierarchical taxonomy terms
+- Added breadcrumb taxonomy trail support for posts
+- Fixed small typos
+- Updated Revslider to 5.1.3
+
+Version 3.1.1 - 10.11.2015
+- IMPROVEMENT: Visual composer Row element: Allowed background color to be set when using background image
+- Allow custom category display type at individual category level ( knowledge base listing style included - overrides the whole archive template )
+- Updated Visual composer to 4.8.1 version
+- Fixed a php notice in the recent posts widget
+- Fix for single image elements that were growing out of their wrapping container
+- Fixed Featured items box style that were not 100% width of the column
+- Fixed am isolated Javascript error generated by Kleo page metaboxes and Visual composer
+
+Version 3.1 - 30.10.2015
+- NEW FEATURE: Two New HALLOWEEN Bonus Sliders. Demo: http://seventhqueen.com/themes/kleo/happy-halloween/   http://seventhqueen.com/themes/kleo/spooky-halloween/
+- NEW FEATURE: Added category/tag description support
+- NEW FEATURE: Added Polish translation
+- NEW FEATURE: Override Fontello icons with your own icons by adding the fontello downloaded package to kleo_child/assets
+- NEW FEATURE: vc_inner_row new option to set an inner container
+- Fix / enable wishlist button translations.
+- Fix wishlist button positions
+- Fixed custom sidebar that made widgets styling break.
+- Fixed FB Login that was adding page headers globaly
+- Restyled Feature Items (box-style only) shortcode.
+- Fixed header size when set less than 50px
+- Fix incorrect get_cfield post_id in the featured content post listing.
+- Fixed header transparent when menu is not sticky.
+- Fixed menu sub-items color set as transparent black menu.
+- Reinitiate carousels when changing news focus element tabs.
+- Updated Theme options Redux framework
+- Small fix for listing posts
+- Fixed RESUME demo page import file
+- Fixed full image option for Single Image shortcode
+- Fixed Mobile app demo page fixed import file
+
+Version 3.0.10 – 06.10.2015
+- NEW FEATURE: WPML plugin menu item now works directly from the plugin settings
+- Removed some Paid membership Pro templates from the theme to use the default plugin ones
+- Small fix for RevSlider when side-menu is active.
+- Woocommerce wishlist fix on products listing pages
+- Woocommerce table cart fix for mobile view. Not all of the text fields were visible when holding the mobile in portrait view.
+- Added Romanian translation
+- Added French translation. Many thanks to our comunity member @Julian
+- Added Russian translation. Thanks to Алексей
+- Updated Revolution slider plugin to 5.0.8.5
+- Updated Visual composer to 4.7.4
+
+Version 3.0.9 – 17.09.2015
+– NEW FEATURE: WPML plugin menu item now works directly from the plugin settings
+– Added French translation. Many thanks to our community member @Julian
+– Fixed single image shortcode error when using old Visual composer version
+– Small optimization when showing header dropdown menu
+– Fixed Theme updater class notice.
+– Most of Paid Membership Pro templates now are no longer overridden by the theme for better compatibility.
+– Updated Visual composer to version 4.7.1.1
+– Updated Revolution slider plugin to 5.0.8.5
+
+Version 3.0.8 - 12.09.2015
+- NEW FEATURE: Override Fontello icons with your own icons by adding the fontello downloaded package to kleo_child/assets
+- Visual composer 4.7 compatibility. Added Design elements to all elements. vc_row background repeat and vc_single_image fixes
+- BP Profile search 4.3.1 compat
+- Visual composer 4.7 plugin updated
+- Revolution slider 5.0.8 plugin updated
+- TouchSwipe plugin update + carousel swipe fix
+- Woocommerce single page image sizes fix
+- Facebook login improvements
+- Kleo posts layout switcher fix
+- Options framework update
+- VC Accordion default values fix
+- Title section metabox notice fix.
+- Fixed expired reset password key.
+- Single Woocommerce product double h1 fix ( Please re-save theme options )
+
+Version 3.0.7 - 22.08.2015
+
+ATTENTION: When updating to Revolution slider 5.x you need to replace the News Magazine slider with the new one provided inside the Demo content/Revolution slider folder
+
+- Updated Revslider plugin to 5.0.4.1
+- Woocommerce 2.4 compatibility
+- Visual composer 4.6.2 compatibility
+- WordPress 4.3 compatibility
+- BP Profile Search Multiselect Mobile Touch Fix
+- Fix for double site url in edit link
+- Bp Member Types Fixes
+- Fixed polylang plugin conflicts
+
+
+Version 3.0.6 - 02.08.2015
+– Fixed the Ajax search(from the site menu and shortcode) that was not showing members
+– Change the position of the “kleo_before_content” action so any content added there will render correctly
+
+Version 3.0.5 - 01.08.2015
+- NEW FEATURE: Added BuddyPress Member Types Tabs to show in Members Directory. Generate member types with https://wordpress.org/plugins/bp-member-type-generator/ 
+- Visual composer 4.6.x compatibility
+- Fix remember me on ajax login
+- Fix portfolio filter not directly showing all items
+- Small fix for woocommerce shop page header and bottom content
+- Small rtMedia popup fixes
+- Escaped an input query string inside the theme
+- Updated language strings and included the .pot file
+- Updated Visual Composer plugin to version 4.6.1
+- Udpated Go Pricing plugin to version 3.0.3
+
+Version 3.0.4 - 05.07.2015
+- Added search order relevance to the ajax search from the menu and shortcode
+- Tabs shortcode fix when titles constains Cyrillic characters
+- Some theme update improvement logic to fix some isolated errors.
+
+Version 3.0.3 - 24.06.2015
+- Fixed Paid memberships Pro shortcode display issue
+
+Version 3.0.2 - 23.06.2015
+- GeoDirectory import data options in WP admin - Appearance - KLEO Demo Data
+- Added an option to disable AJAX Theme options saving if you encounter problems. Just add to your child theme/functions.php this code: add_filter( 'kleo_theme_options_ajax', '__return_false' );
+- Fixed an issue with the pasted shortcodes in the Header contet and Bottom content that wasn't interpreted correctly.
+- Added small backward compat for users who havent upgraded to BP 2.3+
+- Small social header fix for submenus going under the main menu
+- Fixed active color profile tabs on Chrome browser
+- Fix errors when previewing anything that uses iFrames in Wp Admin. thanks @sharmstr See: http://seventhqueen.com/support/forums/topic/errors-with-arforms-and-kleos-config-php-of-the-pmpro-plugin
+- Custom page title adjustments
+- Small search and cart dropdown fix when using Header with logo to right
+- Woocommerce/BuddyPress fix to display all orders in profile.
+- Woocommerce title in main section now can be hidden if that option is checked in the Shop page
+- Updated Visual composer to version 4.5.3 for PrettyPhoto plugin vulnerability 
+ 
+Version 3.0.1 - 15.06.2015
+- Fixed theme options issue on some hosting accounts with older php versions
+- Performance improvement on fetching theme icons function.
+- Fixed disabling meta for Blog posts that wasn't applying
+- RtMedia groups fix when using full group profile header setting from Theme options - Buddypress
+- Small fix for buddypress message position
+- Update Geo Pricing Tables to 3.0.1
+
+Version 3.0 - 11.06.2015
+- NEW AWESOME DEMO pages
+- NEW FEATURE: Live Customizer for Styling options colors. Now you can easily preview the chosen colors
+- NEW FEATURE: Google Material Colors presets for Header, Main, Alternate, Footer and Socket section. Check them out in Theme options - Styling options
+- NEW FEATURE: Customize Post meta separator and put a custom one other than the defautl comma.
+- NEW FEATURE: Easily install updates for theme bundled plugins like Visual Composer and Revolution Slider directly from your Admin dashboard.
+Get notified after a theme update if you need to update plugins also.
+- NEW FEATURE: Galaxy particles shortcode. Please update K-elements to version 3.0 
+- NEW FEATURE: BP Profile search fully compatible and new demo. Easily search members profiles by defined profile fields
+- NEW FEATURE: Pricing table element. Easily add pricing tables using Visual composer interface
+- NEW FEATURE: Included "Go - Responsive Pricing & Compare Tables for WP" plugin to create awesome pricing tables beside the theme pricing table shortcode
+- NEW INTEGRATION: GeoDirectory plugin fully compatible
+- NEW INTEGRATION: Sensei - eLearning plugin compatibility and a brand new demo
+- NEW FEATURE: Added BuddyPress cover for Groups compatiblility.
+- New Headings option added to Styling options so you can apply color to H1, H2, H3, H4, H5 and H6 elements 
+- BuddyPress 2.3 new Avatar Upload functionality
+- BuddyPress 2.3 Messages star functionality
+- NEW FEATURE: KLEO NEWS HIGHLIGHT - Display list of articles by highlighting a number of specified posts. Selecting to show just some categories from the Visual composer interface will show the first category name as a label on the first post image. See it in action here: http://seventhqueen.com/themes/kleo/news-magazine
+- NEW FEATURE: NEWS Ticker. Show posts in a fancy scrolling layout. See it in action here: http://seventhqueen.com/themes/kleo/news-magazine
+- NEW FEATURE: NEWS FOCUS element.
+- New Overlay style for posts carousel
+- Added a new option to Single image shortcode to make it full width and stretch to fit the parent container
+- Added a new option in Theme options - Header to have a stronger color for top social menu bar. Calculates top-bar bg color based on header bg-color to match "material color" style.
+- Visual composer 4.5.x fully compatible
+- RtMedia 3.8+ compatibility
+- Woocommerce small fix to so that full image displays in product image lightbox.
+- Added new Icons selector to all theme shortcodes so you can visualise the chosen icons
+- Implemented Custom Login Redirect. Set it up from Theme options - Miscellaneous. From user voted requests http://seventhqueen.com/support/forums/topic/login-redirect-for-popup-2
+- Added Portuguese-Brazil translation
+- Added Korean translation language files - thanks to our community member @ahd904
+- Microdata fix for Breadcrumbs
+- Fix for overlapping backgrounds when using row in row element
+- Small Row color inheritance fix
+- Small header background fixes when is mobile and dark text menu in the same time.
+- Fix for rtMedia activity carousel that wasn't displaying correctly
+- Small css fix for rtMedia media upload button for activity.
+- Bug fix for template equal columns when # hyperlinks are used
+- Fix for parallax issue coming from 2.4.3
+- Updated some used plugins in the theme for the XSS Vulnerability Affecting Multiple WordPress Plugins
+- Disabled hosted video preload for bandwith saving
+- Extra check for notification refresh in case BuddyPress is not activated but you have the notifications menu added.
+- Small fix for Woocommerce products effect on mobile devices
+- Ajax login improvements and now redirect can be added with any plugin like Peter's redirect.
+- 4 new switches in Theme Options to control member, post, product and portfolio previous and next navigation. thanks @sharmstr
+- Added some small descriptions to Theme options - Styling options
+- Bugfix - http://themeforest.net/item/kleo-next-level-premium-wordpress-theme/6776630/comments?page=103&filter=all#comment_9996321
+- Small fix for retina logo logic when no logo was set
+- Facebook login improvements and now redirect on login can be added with any plugin like Peter's redirect.
+- Display header and bottom content in the blog archive page.
+- Small fix for members isotope view on iphone devices.
+- Fix Safari issue with Buddypress profile fields display
+- New option for BP page title location to use the site default location. 
+- Updated BuddyPress "Everything" string from activity page so now it is translatable
+- Fixed rtmedia activity video/audio elements not acting right sometimes
+- Updated multiple sidebar class not to generate notices related to WP 4.2
+- Updated Visual composer to 4.5.2
+- Updated Revolution Slider to version 4.6.93
+
+Version 2.4.3 - 22.04.2014
+- Fix for blog grid displaying featured media
+- Carousel Swipe fix on mobile
+- Updated Woocommerce cart.php template for the 2.3.8 plugin update
+- Small Woocommerce Filter by widget styling fix after plugin update
+
+Version 2.4.2 - 21.04.2014
+- NEW FEATURE: Enabled comments support for Portfolio page. New setting in Theme options - Portfolio
+- NEW FEATURE: Enabled custom menu options for posts too. You can see a new metabox from the post edit page
+- NEW FEATURE: Added ability to remove Author link from Blog posts meta
+- NEW FEATURE: Added new option to enable excerpt in KLEO Recent Posts Widget.
+- NEW FEATURE: Menu placeholders that generate the link to your profile now work with bbPress too (##profile_link## and ##member_name##)
+- Added Spanish translation - thanks to Laura Solanes
+- Updated Visual composer vc_message element
+- Added some new Fontello icons
+- Fixed parallax section on mobile devices
+- Maintenance Mode - Theme My Login plugin compatibility
+- Fixed display issue with payment selection
+- IE compatibility mode fix
+- Aditional style added to highlight button with different font setting
+- Smal W3C validation fix on woocommerce cart and W3C validation fixes for image "alt" attribute not to be empty on blog posts thumb
+- Buddypress 2.2 backwards compatibility on notifications pages
+- Small BuddyPress styling improvements
+- Updated some BuddyPress group avatar related strings
+- Applied some styling to the Buddypress sitewide notification
+- Add color for disabled buttons(button with "disabled" class added)
+- Ability to set background and color for the Title section on Blog page too.
+- Improved article likes so you can't fast click multiple times on it.
+- Fixed meta display on single post without image
+- Small overflow fix for article content.
+- User favorites fix not showing on user profile
+- Fix for sidemenu submenus on mobile devices
+- Updated Paid Memberships Pro levels page so if Buddypress is disabled the extra info related to it won't show
+- Rtmedia template updates and some css adjustments
+
+Version 2.4.1 - 24.02.2015
+- Woocommerce 2.3 compatibility
+- Small fix for WooCommerce - Dropdown select overlapping container.
+- Backwards compatiblity for Buddypress older than 2.2
+- Some HTTPS compatiblity improvements.
+- Added theme support for Title Tag. See more here: http://codex.wordpress.org/Title_Tag
+- Fixed Visual composer Text Column element Design options compatibility
+- Excerpt improvement
+- Posts Pagination improvement.
+- BuddyPress Cover improvement for Full width version without photo & some changes to BP Cover Photo compatibility.
+- Small alignment fix for Feature Icons.
+- Fixed link title on avatar in author meta when BP is enabled.
+- Floating contact form - cleared input data after successful submit
+- Small woocommerce checkout bug
+- Some social share improvements
+- Moved BuddyPress cover photo plugin to Wordpress repository
+- Facebook login photo fix that was not showing after another login
+
+Version 2.4 - 11.02.2015
+- NEW FEATURE: Long waited BuddyPress Profile cover is here with a fresh and awesome design :) Check the new profile page options from Theme options - Buddypress - "Hide Breadcrumb section for Profile pages" and "Enable Full width Profile Header"
+- NEW FEATURE: Visual Composer 4.4 compatibility
+- NEW FEATURE: BuddyPress 2.2 compatiblity. Here are some visual changes you will notice:
+-- Create group button now is relocated in to the Groups page menu items
+-- Add ability to bulk manage BuddyPress notifications
+
+- NEW FEATURE: option to integrate Woocommerce - My Account screens into Buddypress profile. Activate it from Theme options - Woocommerce
+- NEW FEATURE: Added BuddyPress Groups to ajax search context
+- NEW FEATURE: Enable/disable Woocommerce NEW product badge and set the number of days to treat a product as new.
+- NEW FEATURES: Share options for pages, enable/disable page comments, enable/disable media display on page
+- NEW FEATURE: Added avatar and links to author meta with the ability to control display using theme options
+- NEW FEATURE: Social Share options can be set for all your custom post types and for pages. You can find the new share options under Theme options - Social share
+- NEW FEATURE: Added Tags for Clients and also the option to show by specific tags in the Clients shortcode
+- NEW FEATURE: Added Tags for Testimonials and also the option to show by specific tags in the Testimonials shortcode. Added also the ability to specify testimonials by id
+- NEW FEATURE: Changed kleo_button shortcode so you can generate a link to your BuddyPress profile. Example of href link for Messages profile section: ##profile_link##messages
+- NEW FEATURE: Enabled related posts for Custom Post Types. See the option in Theme options - Blog
+- NEW FEATURE: Added an option to disable Woocommerce product image effect.
+- NEW FEATURE: BuddyPress Group Email Subscription plugin compatibility
+- NEW FEATURE: Added new option to hide excerpt in Posts Grid shortcode.
+
+- Fixed a BuddyPress string translation on activity page
+- Small fix Buddypress activity comments
+- Restricted Buddypress message content in emails sent to users if private messages were disallowed for that level from Theme options - Memberships
+- Added placeholder for member name next to my accont avatar in main menu: ##member_name##
+- Added a new option to disable loading minified versions of the CSS and Javascript files. See the option in Theme options - Miscellaneous
+- Improvements to Hosted videos Flash Fallback
+- Improvement: When clicking the Kleo Logout menu it will redirect you to the page last visited.
+- Small compatibility fix for Woocommerce in multisite
+- Woocommerce Paypal checkout css fixes
+- Woocommerce: Option to show product excerpt on single. 
+- Woocommerce: Show FB login on checkout if enabled.
+- Fixed a breadcrumb issue for Woocommerce category
+- Small sidemenu fix and "+" sign showing incorrectly
+- Some AJAX login data parsing improvements
+- Some other styling fixes and improvements
+
+Version 2.3.1 - 21.12.2014
+- Updated Visual Composer to version 4.3.5 that fixes and incompatibility with WordPress 4.1. Please read our documentation on updating bundled plugins like Visual composer that does not support auto-updating. http://seventhqueen.com/support/documentation/kleo#updates
+- NEW FEATURE: Added Tags for Clients and also the option to show by specific tags in the Clients shortcode
+- NEW FEATURE: Added Tags for Testimonials and also the option to show by specific tags in the Testimonials shortcode
+- Improved Tags archive page to show portfolio items correct media type.
+- Fixed Woocommerce discount badge when using variable product
+- Header logo size math logic improvements so it wil be calculated correctly.
+- Fixed snow effect on tablets.
+- Fixed BuddyPress translations on avatar page
+- Fixed Woocommerce images on mobile when showing two one under another
+- Fixed Woocommerce badge discount calculation on some cases
+- Fixed Tags archive page to include any other custom post type that uses the post_tag tanoxomy
+- Header Left logo and menu under fix when using with transparent header and enabled top bar.
+
+Version 2.3 - 09.12.2014
+- NEW FEATURE: Added a new Header Layout with menu underneath the logo and a new section to the right side of the logo to add any kind of content or shortcodes
+- NEW FEATURE: Two new Homepages with unique Revolution sliders to use for the Winter Holidays. See them here: http://seventhqueen.com/themes/kleo/merry-christmas-happy-new-year/ http://seventhqueen.com/themes/kleo/merry-christmas/
+- NEW FEATURE: Enable beautiful snow effect on your site. Enable it for the whole site from Theme options - Miscellaneous - Let it Snow or just for a section on your site with the Let is Snow Visual Composer shortcode. Examples: http://seventhqueen.com/themes/kleo/merry-christmas-happy-new-year/ http://seventhqueen.com/themes/kleo/merry-christmas/
+- NEW FEATURE: Option to set a custom page title in for each page or post. See it from page edit in Theme General Section metabox - Title section
+- NEW FEATURE: Added new option for Header height to set a custom height
+- NEW FEATURE: Added option for Woocommerce to enable appearing animation on products listing.
+- NEW FEATURE: Added the option for Self Hosted Video Poster to Posts and Portfolio items
+- NEW FEATURE: Added microdata formats support to blog articles
+- NEW FEATURE: Modified Visual composer Tags cloud shortcode to include the option for displaying current post assigned tags.
+- Fixed Side Menu colors that weren't applying from Theme options - Styling options - Side
+- Fixed sidebars on blog page when using 3 Columns layout
+- Fixed an error on Lost password message when trying to recover password
+- Post masonry template - added the option to set the slider scroll duration via data-scroll attribute
+- Fixed Search page layout
+- Fixed small styling issue on Buddypress activity page on mobile devices
+- Fixed Featured Items display on mobile devices
+- Some bbPress styling fixes
+- Updated plugins: Revolution Slider v. 4.6.5; K-elements 2.3
+
+
+Version 2.2 - 20.11.2014
+– NEW FEATURE: 1 Click Install. Import all demo, import by content type(only posts, pages, portfolio, etc), import widgets
+– NEW FEATURE: RTL FULL Support. We added support for Woocommerce RTL, Buddypress RTL, bbPRess RTL, Social articles RTL, rtMedia RTL
+– NEW FEATURE: OFF CANVAS SIDE MENU. Add extra menu or information with ease in a side menu. It can be configured to show on left or right side.
+– NEW FEATURE: HEADER styles. You can now choose from Left logo, right logo, centered logo
+– NEW FEATURE: Title/breadcrumb section styles: Default, Centered and Right breadcrumb styles. Ability to edit style, color, background and padding in each page
+– NEW FEATURE: Rich snippets – Breadcrumbs. Search engines can now identify them and use them in search results.
+– NEW FEATURE: Portfolio Archive page can now be set to be a page from your site. With this new option you can edit the archive page like any other page. Find the new option in Theme options – Portfolio
+- NEW FEATURED: WE addded a new DEMO Black Friday page.
+– NEW FEATURE: A new option in Theme options – Woocommerce to replace the Sale badge with SAVE NOW xx% on discounted products
+– NEW FEATURE: We added a new shortcode: Count posts by type. This can be used inside animated numbers shortcode
+– NEW FEATURE: Search button from menu now can be set to ON – OFF – Only for logged in users.
+– NEW FEATURE: Enabled shortcodes to be used in menu item title
+– Fixed Private message button in Friends tab from your profile
+– Increased default Portfolio image size on portfolio item page for Image slider and Featured image Media type
+– Small code change to allow post types to be removed with remove_action in child theme
+– Striped html tags form the menu title attribute that appears when hovering menu items
+– Fixed a problem with the container that was forced full width on sidebar templates
+– Google maps shortcode improvements and compatiblity with tabs and accordions.
+– Fixed a background styling issue when using an image for the main content
+– Fix for Safari browser menu transition bug
+– Fixed Carousel images php notices that appeared in some cases
+– Removed notices for recommended plugins to users that don’t have the permissions
+- Other improvements and fixes
+– Updated Waypoints jQuery plugin to 2.0.5 version. Updated Revolution slider to 4.6.3 version
+
+Version 2.1.1 - 21.10.2014
+- Small fix for a php generated notice that came after 2.1 update
+
+Version 2.1 - 21.10.2014
+- NEW FEATURE: AJAX Search from your main menu now allows you to choose what content to search for. You can choose from Members, Forums, Posts, Pages and any other custom post type like Events if you have an Events plugin. Set the context for the Menu search icon from Theme options - Header
+- NEW FEATURE: We extended our awesome AJAX Search Form and now you can customize what to search for. Now you can search for MEMBERS and FORUMS too.
+- NEW FEATURE: Added Password Strength indicator in Register page and Profile settings page as in BuddyPress 2.1
+- NEW FEATURE: Added nice backgroud transition for transparent menu 
+- NEW FEATURE: Added Login, Logout and Register menu items. Add them to your menu from Appearance - Menus - KLEO 
+- NEW FEATURE: Added Ghost style for Tabs Pills type element. Nice to use on image backgrounds.
+- NEW FEATURE: Set the name and the slug for your portfolio archive. Find the setting under Theme options - Porfolio. Make sure to resave your permalinks if you change the slug
+- NEW FEATURE: Option to have Transparent header on light or dark background. See the new options in Page edit - Theme General Settings - Display settings
+- Fixed Buddypress rtl languages where theme styles weren't loaded 
+- Restyled Facebook Login pop-up to be more awesome :)
+- Restyled Ajax search 
+- Restyled Feature Items 
+- Added text selection background to match you highlighted background color set in Theme options
+- Fixed Facebook login Email permission to be re-asked in case user hasn't allowed this. 
+- Fixed buddypress members search placeholder when search string is in URL 
+- Small fix bg full video on mobile 
+- Fixed "0 comments" that was showing when comments were disabled on blog posts. 
+- Small Woocommerce dropdown fix 
+- Some Woocommerce filter fixes 
+- Fixed Gallery thumbs issue on Chrome browser that wasn't always loading the main image 
+- Small styling fix for Recent posts widget 
+
+
+Version 2.0 - 23.09.2014
+– NEW FEATURE: PORTFOLIO. Add portfolio items with fancy styles.
+– NEW FEATURE: ONE PAGE functionality. You can now set a custom menu for a page which contains links to different page sections that will nicely scroll to that section. Also the menu link will highlight when you scroll the page to a specific section.
+– NEW FEATURE: Autocomplete @mentions on activity posting and comments to work with latest BuddyPress 2.1
+– NEW FEATURE: Option to set the site content width for the boxed layout.
+– NEW FEATURE: Posts grid new option to show blog posts in a standard layout, with or without post meta.
+– NEW FEATURE: Added option to search an individual forum by adding a search form in single forum page
+– NEW FEATURE: AJAX Search Shortcode. Add superb search widget to your pages. See demo: http://seventhqueen.com/themes/kleo/pinterest/
+– NEW FEATURE: Row element now has an option to set No gap between its containing columns for extra flexibility on your designs
+– NEW FEATURE: Row element now has an option to set Vertical aligned content for the inner columns
+– NEW FEATURE: Image Gallery Grid wiith the option to set the number of images per row, from 2 to 6
+– NEW FEATURE: Page option to hide Shop icon and Search icon in the Main menu
+– NEW FEATURE: Enabled page settings for Buddypress directory pages. Now you can customize the sidebar used, show/hide title, transparent header and other page options
+– Minified CSS and JS resources and combined some of them into one file for faster site loading
+– Added Video cover for Video background option on Row element
+– Events Manager styling compatibility
+– Fixed Woocommerce styling for the terms and conditions on checkout page
+– Fixed menu transparency when not enabled the resizing logo option
+– Fixed: Comments line delimiter wasn’t showing when no comments were added on a post single page
+– Fixed bbPress template for no results on searching topics
+– Extended mega menu to 6 items per row and it is available to child items without submenus
+– Clearfix for Post article centered images
+– Fixed Image Gallery shortcode elements width
+– Fixed bbPress notices that were not visible
+– Compatibility with MailChimp for WordPress Lite
+– Fixed Video Background for Row element problem that was ocurring in some isolated cases.
+– Fixed Social articles notification styling in the AJAX Live notifications from the menu
+– Fixed styling, Added break word for posts masonry entry summary
+– Fixed rtMedia styling for URL upload textarea
+– Fixed Breadcrumb parent slug duplicated fix for Custom post types.
+– Fixed Retina logo on Tablet when going from Landscape mode to Portrait mode
+– Fixed Image carousel white area when scrolling slides
+– Plus other small fixes and compatibility.
+- Updated Plugins: Visual Composer 4.3.4, Revolution Slider 4.6, K-Elements 2.0 
+
+Version 1.6.3 - 14.08.2014
+- NEW element: Tour section. Add vertical tabbed content positioned to the left or right side 
+- New shortcode: Restrict content based on user type(logged in user or guest)
+- Recent Posts Widget new option to show Feature image or Author image 
+- Fixed Parallax issue after 1.6.2 update 
+- Fixed home page title that was showing as "Blog" in some configurations 
+- Fixed post content top padding on center aligned image 
+- Styled Wp-activate page that appears when using multisite and Buddypress is not activated
+- Some improvements for the menu on webkit browsers.
+- Fixed styling for the search box on BuddyPress private messaging page.
+- Styled Recipients box from private message page.
+- Adjusted padding for Woocommerce Product added to cart message. 
+- Visual composer 4.3.2 compatibility.
+- Updated Visual composer to 4.3.2, K-elements to 1.6.3
+
+Version 1.6.2 - 01.08.2014
+- NEW MENU ITEM: Logged in Avatar – easily add it to the menu with link to your profile.
+- Fixed Buddypress Settings Profile saving fields when having multiple profile groups
+- Fixed Masonry gallery alignment problem after 1.6.1 update
+- Renamed default value from header "fell free to call us" with "feel free to call us"
+- Small fix for rounded thumb border when using background image for main content
+
+Version 1.6.1 - 25.07.2014
+- NEW FEATURE: Add icons to menu items with the new option available in Appearance – Menus
+- NEW FEATURE: Theme options – Miscellaneous added option to choose what happens on login redirect from the modal window, default WP redirect or reload the current page.
+- Styled WordPress Multisite default register page(when not using BuddyPress plugin
+- Fixed Facebook login in modal login
+- Fixed Notification count where there are no notifications available
+
+Version 1.6 - 23.07.2014
+- NEW FEATURE: LIVE Menu Notifications. Just add it to your menu from Appearance - Menus and set the refresh interval from our Theme options - Buddypress section 
+- NEW FEATURE: Login Pop-up. Added beautiful modal for easy login and lost password actions. 
+- NEW FEATURE: Enabled Pie chart shortcode in Visual composer 
+- NEW FEATURE: Enabled Progress Bar shortcode in Visual composer 
+- NEW Shortocode: bbPress statistics. Generate statistics related to total number of forums, topic, replies. This can be used with number animations 
+- Facebook Login - Added button to default WordPress login page
+- Visual composer Posts Carousel added Speed attribute to control carousel speed for auto play 
+- Fixed editing other member avatar as admin wrong redirect issue 
+- Fixed tooltips after 1.5 update 
+- Header background image fix when transparency is on 
+- Fixed Blog main page title when not using a custom page for the Blog section in Settings - Reading 
+- rtMedia gallery added appearing animation 
+- Visual composer Front-end editor stlying fixes
+- Mega menu functionality added with "add_theme_support" statement so it can be easily disabled in child theme 
+- Fixed archive title displaying incorrectly. 
+- Posts comment section link to your profile, now gets you to your front-end profile if BuddyPress is installed 
+- Fixed some metaboxes conflict with other plugins 
+- Fixed Facebook reload on login on wp-login page 
+- Extra checks for getting the featured image from the content so the image actually exists 
+- Facebook login - fixed problem with registration when linking to same WordPress user 
+- Fixed header main menu height when using some small logos 
+- Visual composer Single Image shortcode link fix 
+- Added action wp_nav_menu_item_custom_fields to admin menu customization walker classs 
+- Fixed some styling related to Buddypress check boxes and radio boxes that were going outside the visilbe area of the page 
+- Fixed some styling and isotope initialization for the Image gallery grid shortcode 
+- Fixed Start Upload button padding on rtMedia page 
+- Fixed easing js warning on carousel when Buddypress wasn't installed 
+- Theme options optimizations 
+- Added Paid Memberships Pro to the list of recommended plugins 
+- Fixed Select dropdown on Firefox > 3.0
+- Fixed retina logo display on mobile devices to have proper height
+- Updated plugins: Revolution Slider v4.5.9, K-elements 1.6.0
+
+Version 1.5.0 - 14.06.2014
+- New feature: Fetch the image from the post if there is no Featured image set
+- Added new option "Visibility status" to the Row shortcode so you can keep draft sections not to appear in Front-End
+- Added Theme option Main menu Font size
+- Menu improvements
+- Facebook Login API 2.0 compatibility
+- Compatibility with some Visual composer related plugins that were messing with template columns
+- Fixed Visual composer Single image element to work with new Design options and added styles attribute
+- Buddypress Activity Page shortcode added – Show Activity page in any site area
+- Added Woocommerce shortcodes in Visual Composer
+- Blog posts views responsive improvement
+- Enabled image lightbox for all post content images with links to larger image version
+- Allow the Likes button to show in single articles page even if Social share option is disabled
+- Buddypress breadcrumb improvements
+- Fix Buddypress profile fields alignment issue on some profile fields types
+- Posts Carousel added extra attribute: height to force a height on carousel elements
+- Small background colors moved to dynamic.php
+- Topmenu Ajax Search added to dynamic color system
+- Small style changes to magnific-popup
+- Buddypress Group page user interface improvements when only Admin/Mods were shown in the header
+- Fixed custom archive post type displayed title
+- Fixed Breadcrumb area so it can be hidden automatically when title, breadcrumb and info are disabled
+- Cometchat plugin compatibility
+- Rounded avar fix on some mobile devices
+- Small fix when rtMedia is deactivated
+- Crop avatar rounded preview – according to this post http://seventhqueen.com/support/forums/topic/kleo-features-requests#post-16592
+- Fixed Buddypress Group cropping issue when editing existing avatar
+- WooCommerce “NEW BADGE” fix
+- Styled Woocommerce Wishlist Social Share section
+- Woo buttons background color fix for Safari browser
+- WooCommerce small styles fix
+- Changed BuddyPress profile edit template file to match new BuddyPress logic
+- Changed Buddypress register template with the new structure from Buddypress and adjusted the register page for mobile devices
+- Small WooCommerce colors added to dynamic color system
+- Some text inputs & textareas color fixes
+- Extra check for the body background image not to be used when using a wide site layout
+- WPML top menu language switcher now takes all the settings from WPML plugin Languages page. Removed the option “Show language flag in menu” from Theme options – Header options since now the flag depends on the plugin settings
+- Paid memberships Pro account page – If Buddypress is enabled, clicking the profile and change password links will take you to the Buddypress profile page now
+- Ajax search color fixes when header is transparent. 
+- Removed some static Font Family declarations from site style and linked them to Theme options chosen Font
+Updated plugins: Visual Composer v4.2.3, Revolution Slider v4.5.3, K-elements 1.5.0
+
+
+Version 1.4.2 - 30.04.2014
+- Fixed child theme generated styles override in style.css 
+- Small title width fix for Social Articles plugin 
+- Fixed BadgeOs admin metaboxes styling conflict 
+- Default WP Gallery & Single image attachment restyled 
+- Blog posts restyled at lower resolution 
+- When registering with Facebook also update wordpress user First name and Last name 
+- Buddypress Manage Members restyled
+-  Fixed Buddypress Groups breadcrumb title issue and permalink
+- Fixed menu search when hitting Enter to go to search results page directly 
+- rtMedia PRO styling
+- Restyled rtMedia “Edit Media” page
+- Top-menu dropdown-menu alignment fix for lower resolution 
+- Added Item Likes post types filter
+
+Version 1.4.1 - 18.04.2014
+- Buddypress 2.0 & WordPress 3.9 compatibility
+- Social Articles plugin is fully compatible. Allow your users to create posts right from their Buddypress profile 
+- Woocommerce: 
+	Small carousel fix on product page 
+	Woocommerce: Small widget overflow fix 
+	Woocommerce: Small color reallocation for on sale badges 
+	QuickView Modal button style fix 
+- bbPress search icon fix
+
+
+Version 1.4 - 11.04.2014
+- NEW: Woocommerce integration. Now you can sell your products using KLEO theme. Product QuickView feature + Wishlist integration + Ajax cart in menu + more options that you can customize from Theme options
+- NEW: Added the option to set your content width for one sidebar and two sidebar templates 
+- Added two content boxes in Page edit for Header and Bottom content that you can apply to show on each page
+- NEW: Buddypress Previous/Next member on each member page now have also avatars
+- Usability: Buddypress avatar cropping page - After you upload the avatar the page will now go down to the avatar section
+- Membership levels page - Added a distinctive class to each level box so you can style it via CSS if you need
+- Profile buddy tab drop menu fix for Safari & Chrome on Mac OSX 
+- Membership type now appears in your Buddypress profile
+- See Through Button - Applied solid background-color at hover 
+- Small fix for incorrect logo height in some cases 
+- Fixed row option for full background option 
+- Compatibility with Menu Item Visibility Control 
+- Fix for header without logo and just displaying site name
+- Fixed Membership Restrictions values that do not save in the Theme options panel 
+- Fixed Members Carousel in multisite without rounded hover
+- Fixed Activity page first avatar a litte bit cut off
+- Small CSS fix on Buddypress profile edit page that was appearing only in isolated cases.
+- Fixed Facebook Avatar to show for members connected using Facebook 
+
+
+Version 1.3 - 20.03.2014
+- Fix for Blog Masonry display when Featured image was smaller than 480px and wasn't showing
+- Fix for Buddypress Activity Video
+- Top bar social icons - now are visible on mobile devices too
+- Top bar menu - all items are visilble on mobile devices. They are collapsed into a drop down menu
+- Fixed Buddypress profile menu icons bug 
+- Widget - News thumb fix when using small title 
+- Fixes styling for Menu on mobile devices
+- Removed Bootstrap request to glyphicons since they are not used 
+- Fixed some Buddypress bugs: reply comment alignment on mobile, reposition fav/unfav icon
+- Small line-height fix for navbar
+- Small width fix for Megamenu 
+- Fix for Spotify embeds to be responsive 
+- Added rounded option to Members Grid & Groups Grid elements
+- Added Word wrap for members directory last update.  
+- Small box-shadow fix for iPhone input boxes 
+- Fix for Internet Explorer Buddypress profile menu icons showing too big 
+- Completetly restyled Mediaelement player
+- Fixed menu icons on submenus and hover mobile
+- Small HR height fix 
+- Small change on top-menu dynamic color 
+
+Version 1.2 - 06.03.2014
+- NEW Testimonials post type and Shortcode element + Visual composer element 
+- NEW Hosted Videos option for posts
+- Added Love button to Social Share section in Single blog entry 
+- Show image for Standard post format if the Featured image is set 
+- Wordpress Multisite extra styling applied
+- Fixed Private message button from Members Directory 
+- Small fix for hover-element on members-carousel shortcode
+- Safari fix for HR dividers
+- HR Dividers optimized for mobile view 
+- Safari fix for transparent header
+- Fix for Safarai & Chrome menu at mobile version
+- Fix for Transparent menu on boxed site version
+- Fix scroll for transparent menu on mobile version
+- Realigned submenu to right side 
+- Fix for rounded members carousel on IE
+- Dropdown select restyled - using now css only to avoid extra javascript requests
+- Small fix for tab pills color
+- Paid Memberships Pro pricing table extra styling
+- Fixed members masonry image issue when it was too small 
+- Fixed image carusel when used without links
+- Fixed Favorite activity bug when not saving favorite post 
+- Webm file fix for row shortcode
+- Small styling fix for Featured Items
+- Small fix for Post Audio timer display on hover 
+- Fixed some admin translation problems when using child theme 
+- Ordered list fix for Activity entry for Buddypress and related also to bbPress topics when havin "ol" tags
+- Label white text fix, legend restyled
+- Fixed some Internet Explorer styling issues related to menu and select box
+- Fix for rounded members carousel on IE 
+- Small iframe fixes 
+- Fixed Featured Items Carousel title margin 
+- Fixed Featured Items Prev/Next arrows 
+- Fixed rtMedia Video controls 
+- Fixed Private group display issue when not allowed to access it 
+
+Version 1.1 - 26.02.2014
+
++ Added Mega menu
++ Logo retina added
+- FAV icons changed to follow the logo design which was changed right before the submit of our theme.
+- Rebuild color sistem for: feature items, dividers, buttons, tooltips & popovers
++ More shortcode pages added: feature items, dividers, buttons, tooltips & popovers
+- Google Chrome display fixes
+- Google Chrome top menu fixes 
+- Google Chrome Navbar toggle fix
+- Mobile devices fixes
+- Buddypress Activity, Groups, Members display fixes
+- Top menu fix on Google Chrome
+- Changed default colors
+- Added styling to PMPRO Levels page
+- Wp-login.php logo link to go to home page
+- Nav-tabs & Nav-Pills recentered 
+- Feature items & container lists are left aligned by default now. 
+- Added Responsive visibility option to Row shortcode 
+- Added option to disable post media on single pages 
+-  Fixed posting activity bug that wasn't showing newly added post until page refresh 
+- Fix for Buddypress Activity Load more button 
+- Tab shortcode - Added option for active tab
+- Fixed some bugs in Accordion shortcode
+- Some minor css Carousel changes
+- Added  prev/next option to Images carousel 
+- Fix post meta displaying wrong in Chrome 
+- Fixed Forums - search form icon 
+- Fix gallery grid masonry 
+- Added Grid Gallery animation
+- Fixed sticky header logo flicker on Chrome Browser 
+- Empty paragraph fix not to display at the end of the generated section 
+- Buddypress - Removed extra padding for members grid listing 
+- Google ads fix for sliced images
+- 
+
+04.02.2014 - Initial release
